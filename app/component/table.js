@@ -31,7 +31,15 @@ export default function Table() {
           </tr>
         </thead>
         <tbody className="bg-gray-200">
-          <tr className="bg-gray-300 text-center">
+            {Tr()}
+         
+        </tbody>
+      </table>
+    );
+  }
+  function Tr(){
+    return(
+        <tr className="bg-gray-300 text-center">
             <td className="px-4 py-2 border border-gray-300 flex flex-row items-center justify-center">
               <img src="#" alt="/" className="w-8 h-8 rounded-full" />
               <span className="text-center ml-2 font-semibold">Majd Zarai</span>
@@ -65,8 +73,5 @@ export default function Table() {
             </td>
             
           </tr>
-        </tbody>
-      </table>
-    );
+    )
   }
-  

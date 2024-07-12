@@ -1,0 +1,14 @@
+[
+    {
+        "id":1,
+        "Teacher Name": "majd zarai",
+        "Section" : "4eme science",
+        "Cours Name": "Physique",
+        "Price":100,
+        "Description": "this is the database test description",
+        "Image": "https://img-0.journaldunet.com/HfJq3WeEZD8WMieqZqeiYTk_9MQ=/1500x/smart/218d741508034c0aaf1e4c246f54756d/ccmcms-jdn/12420397.jpg",
+        "Status":"Hide"
+
+
+    }
+]
